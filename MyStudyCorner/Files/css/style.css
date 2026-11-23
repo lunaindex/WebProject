@@ -1,47 +1,77 @@
-header{
-display: flex; 
-gap: 40px;
-background-color:#2F5D4E ;
-padding:25px  30px;
+.navbar{
+     background: #315C50;
+     position: sticky;
+     top:0;
+     display: flex;
+     gap: 30px;
+     padding:20px 35px ;
+     font-size: 20px;
+     justify-content: space-between;
+    border-bottom: 15px #f5bc97 solid;
+}
+.navLinks{
+    display: flex;
+    gap: 25px;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0;
 
- font-size: 20px;
-font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .logo{
     text-decoration: none;
-    font-family: serif;
     font-weight: bold;
-    font-size: larger;
-    color: rgb(193, 231, 215);
+    font-size: 30px;
+    color: #F8F3ED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body > header > nav{
-    gap:20px;
-    display: flex;
 
-}
-body > header > nav a{
-color: rgb(153, 233, 153);
+
+.navLinks a{
+color: #f0e8de;
 text-decoration: none;
+padding: 8px 8px;
+border-radius: 6px;
 }
-body > header > nav a:hover{
+.navLinks a:hover{
     cursor: pointer;
-    color: rgb(12, 73, 33);
+    color: #eeb79a;
+}
+.navLinks a:active{
+    background-color: #e7af80;
+  color: #1f3d33;
 }
 
 body{
-    background-color: #d2eedb;
+    background-color: #F8F3ED;
         margin: 0px ;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+        color: #2B2B2B;
+        line-height: 1.5;
 
 }
 .content>.box{
-    background-color: #A3C9B8;
+    background-color: #f1cebb;
+    padding: 0px 150px;
+   border-radius: 24px;
+   max-width: 900px;
+  margin: 0px auto;
+  
+  
 }
+/* Resources*/
 .card {
-    display: flex ;
+    
     gap: 100px;
-    padding: 23px;
-    border: 1px solid #9fd4a1;
+    padding: 20px;
+    border: 1px solid ;
+    border-color:  #9fd4a1;
+    border-radius: 10mm;
     background-color:#eff3f0;
+    display: grid;
+    grid-template-columns: 240px 200px 1fr;
+    align-items: center;
+     max-width: 900px;
+    margin: 25px auto;
 }
 footer>p{
     font-style: italic;
