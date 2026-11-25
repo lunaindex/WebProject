@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tools - MyStudyCorner</title>
     <link rel="stylesheet" href="css/style.css" />
-    
+    <style>
+      #hi{
+        display: flex;
+        gap: 24px;
+        margin: 25px auto;
+        width: 900px;
+        padding: 0 20px;
+      }
+      #hi.box{
+        flex: 1;
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
     <header class="navbar">
@@ -22,7 +34,7 @@
     </header>
 
     <div class="content">
-      <h1>Interactive Tools</h1>
+      <h1 style="text-align: center;" >Interactive Tools</h1>
       <div class="box">
         <h2>Pomodoro method</h2>
         <ol>
@@ -31,7 +43,7 @@
           <li>After 4 rounds, take a long break.</li>
         </ol>
       </div>
-      <div class="row">
+      <div id="hi">
         <div class="box">
           <h2>Focus Quiz</h2>
           <p>1. Where should your phone be?</p>
