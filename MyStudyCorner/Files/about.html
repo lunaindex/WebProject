@@ -7,6 +7,23 @@
   <link rel="stylesheet" href="css/style.css">
   <style>
     .member { text-align: center; }
+
+    table,td,th{
+      border: 4px solid lightsalmon;
+    }
+    table{
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+    }
+    td,th{
+      text-align: center;
+      padding: 8px 12px;
+    }
+    .box{
+      text-align: center;
+    }
+
   </style>
 </head>
 <body>
@@ -24,18 +41,18 @@
   </header>
 
   <div class="content">
-    <h1>About Us</h1>
+    <h1 style="text-align: center;">About Us</h1>
     <div class="box">
       <h2>Our Mission</h2>
       <p>Many students lose time on their phones while studying. We want to help them focus more and get better grades.</p>
     </div>
-    <table>
+    <table  >
       <tr><th>Problem</th><th>How we help</th></tr>
       <tr><td>Phone distractions</td><td>A checklist before studying</td></tr>
       <tr><td>Getting tired fast</td><td>Pomodoro method with breaks</td></tr>
     </table>
-    <h2>Our Team</h2>
-    <div class="row">
+    <h2 style="text-align: center;">Our Team</h2>
+    <div class="card">
       <div class="box member">
         <h3>Student Name 1</h3><p>Home and about pages</p></div>
       <div class="box member"><h3>Student Name 2</h3><p>Resources and tools pages</p></div>
