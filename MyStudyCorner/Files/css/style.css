@@ -1,13 +1,6 @@
 .navbar{
-     background: #315C50;
-     position: sticky;
-     top:0;
-     display: flex;
-     gap: 30px;
-     padding:20px 35px ;
-     font-size: 20px;
-     justify-content: space-between;
-    border-bottom: 15px #f5bc97 solid;
+     padding:20px;
+    font-size:20px
 }
 .navLinks{
     display: flex;
@@ -26,19 +19,18 @@ margin: 0;
 }
 
 
-.navLinks a{
+.Links a{
 color: #f0e8de;
 text-decoration: none;
 padding: 8px 8px;
 border-radius: 6px;
 }
-.navLinks a:hover{
-    cursor: pointer;
-    color: #eeb79a;
+.Links a:hover{
+    color: purple;
 }
-.navLinks a:active{
+.Links a:active{
     background-color: #e7af80;
-  color: #1f3d33;
+  color:blue;
 }
 
 body{
@@ -49,15 +41,13 @@ body{
         line-height: 1.5;
 
 }
-.content>.box{
-    background-color: #f1cebb;
-    padding: 0px 150px;
-   border-radius: 24px;
-   max-width: 900px;
-  margin: 0px auto;
-  
+.content-container{
+flex-direction:column;
+align-item:center;
   
 }
+.contact-info,.contact-form{
+    width:100%;
 /* Resources*/
 .card {
     
